@@ -20,7 +20,6 @@ class Transformer(object):
             name="articles",
             version=1,
         )
-
         # Get list of feature names for articles
         self.articles_features = [feat.name for feat in self.articles_fv.schema]
 
