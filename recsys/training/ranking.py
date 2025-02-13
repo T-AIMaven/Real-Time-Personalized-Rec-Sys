@@ -17,7 +17,6 @@ class RankingModelFactory:
             use_best_model=True,
         )
 
-
 class RankingModelTrainer:
     def __init__(self, model, train_dataset, eval_dataset) -> None:
         self._model = model
