@@ -61,6 +61,7 @@ for feature_group in [
     "candidate_embeddings",
     "ranking",
 ]:
+    
     # Get all feature groups
     try:
         feature_groups = fs.get_feature_groups(name=feature_group)
