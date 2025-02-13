@@ -1,7 +1,6 @@
 from hsfs.feature import Feature
 
 ### Post ingestion format.###
-
 customer_feature_descriptions = [
     {"name": "customer_id", "description": "Unique identifier for each customer."},
     {
