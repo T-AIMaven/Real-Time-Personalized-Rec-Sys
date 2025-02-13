@@ -27,7 +27,6 @@ class Predict(object):
 
         # Predict probabilities for the positive class
         scores = self.model.predict_proba(features).tolist()
-        
         # Get scores of positive class
         scores = np.asarray(scores)[:,1].tolist() 
 
