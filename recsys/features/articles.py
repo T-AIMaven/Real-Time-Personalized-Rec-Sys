@@ -17,7 +17,6 @@ def get_article_id(df: pl.DataFrame) -> pl.Series:
     """
     return df["article_id"].cast(pl.Utf8)
 
-
 def create_prod_name_length(df: pl.DataFrame) -> pl.Series:
     """
     Creates a new column 'prod_name_length' representing the length of 'prod_name'.
