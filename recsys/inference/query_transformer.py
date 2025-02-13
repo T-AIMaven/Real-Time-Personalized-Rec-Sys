@@ -45,7 +45,6 @@ class Transformer(object):
             {"customer_id": customer_id},
             return_type="pandas",
         )
-
         # Enrich inputs with customer age
         inputs["age"] = customer_features.age.values[0]
 
