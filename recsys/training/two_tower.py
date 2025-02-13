@@ -18,7 +18,6 @@ class QueryTowerFactory:
             emb_dim=embed_dim,
         )
 
-
 class QueryTower(tf.keras.Model):
     def __init__(self, user_ids: list, emb_dim: int) -> None:
         super().__init__()
