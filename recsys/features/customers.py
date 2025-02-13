@@ -13,6 +13,7 @@ class DatasetSampler:
         CustomerDatasetSize.SMALL: 1_000,
     }
 
+
     def __init__(self, size: CustomerDatasetSize) -> None:
         self._size = size
 
