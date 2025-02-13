@@ -7,7 +7,7 @@
 
 ## 🎯 About This Course
 
-This hands-on course teaches you how to build and deploy a real-time personalized recommender system for H&M fashion articles. You'll learn:
+This hands-on course teaches you how to build and deploy a real-time personalized recommender system for H&M fashion articles.
 
 - A practical 4-stage recommender architecture
 - Two-tower model implementation and training
@@ -17,10 +17,6 @@ This hands-on course teaches you how to build and deploy a real-time personalize
 - LLM-enhanced recommendations
 - Building an interactive web interface
 
-<p align="center">
-  <img src="assets/4_stage_recommender_architecture.png" alt="4_stage_recommender_architecture" width="400" style="display: inline-block; margin-right: 20px;">
-  <img src="assets/two_tower_embedding_model.png" alt="two_tower_embedding_model" width="400" style="display: inline-block;">
-</p>
 
 
 ## 🏗️ Project Structure
