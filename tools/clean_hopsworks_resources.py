@@ -14,7 +14,6 @@ deployments = mr.get_deployments()
 for deployment in deployments:
     print(f"Deleting deployment: {deployment.name}.")
     deployment.delete()
-
 # Get the model registry
 mr = project.get_model_registry()
 
@@ -62,6 +61,7 @@ for feature_group in [
     "candidate_embeddings",
     "ranking",
 ]:
+    
     # Get all feature groups
     try:
         feature_groups = fs.get_feature_groups(name=feature_group)
