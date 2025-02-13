@@ -31,5 +31,4 @@ def embed(df: pd.DataFrame, candidate_model) -> pd.DataFrame:
             "embeddings": all_embeddings,
         }
     )
-
     return embeddings_df
