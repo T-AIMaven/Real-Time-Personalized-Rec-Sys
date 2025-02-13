@@ -18,6 +18,7 @@ def compute_ranking_dataset(trans_fg, articles_fg, customers_fg) -> pl.DataFrame
     df = trans_df.join(articles_df, on="article_id", how="left")
     df = df.join(customers_df, on="customer_id", how="left")
 
+
     # Select query features
     query_features = ["customer_id", "age", "article_id"]
     df = df.select(query_features)
