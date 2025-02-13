@@ -16,7 +16,6 @@ def convert_article_id_to_str(df: pl.DataFrame) -> pl.Series:
     """
     return df["article_id"].cast(pl.Utf8)
 
-
 def convert_t_dat_to_datetime(df: pl.DataFrame) -> pl.Series:
     """
     Convert the 't_dat' column to datetime type.
