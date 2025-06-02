@@ -1,13 +1,11 @@
 <div align="center">
-  <h1>Hands-on H&M Real-Time Personalized Recommender</h1>
+  <h1>H&M Real-Time Personalized Recommender</h1>
 </div>
 
 </br>
 
 
-## 🎯 About This Course
-
-This hands-on course teaches you how to build and deploy a real-time personalized recommender system for H&M fashion articles.
+## 🎯 About This project
 
 - A practical 4-stage recommender architecture
 - Two-tower model implementation and training
@@ -34,7 +32,3 @@ This hands-on course teaches you how to build and deploy a real-time personalize
 ├── Makefile            # Commands to install and run the project
 ├── pyproject.toml      # Project dependencies
 ```
-
-## License
-
-This course is an open-source project released under the MIT license. Thus, as long you distribute our LICENSE and acknowledge your project is based on our work, you can safely clone or fork this project and use it as a source of inspiration for your educational projects (e.g., university, college degree, personal projects, etc.).
